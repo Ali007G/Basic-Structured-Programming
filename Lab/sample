@@ -1,0 +1,33 @@
+#include<stdio.h>
+#include<math.h>
+
+int main()
+{
+/*
+   float radius;
+    float pi = 3.1416, area;
+
+    printf("Enter the radius value: ");
+    scanf("%f", &radius);
+
+    area = pi * radius * radius;
+    printf("The result is: %.3f", area);
+*/
+/*
+    printf("Name: Ariful Islam\n");
+    printf("Dept.: CSE\n");
+    printf("Roll: 12345\n");
+    printf("University: SIU\n");
+    printf("Address: Shamimabad, Sylhet\n");
+*/
+
+    float a, area;
+
+    printf("Enter side of triangle: ");
+    scanf("%f", &a);
+
+    area = (sqrt(3) / 4) * a * a;
+
+    printf("Area = %.2f", area);
+
+}
